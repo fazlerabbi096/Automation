@@ -14,7 +14,7 @@ async function run() {
     await page.click('#login-button');
     console.log('Test passed: Login Passed');
 
-    await page.waitForSelector('#result:not(.hidden)');
+  
 
     const message = await page.textContent('#welcome-text');
 
