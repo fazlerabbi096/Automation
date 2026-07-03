@@ -1,0 +1,23 @@
+{
+  "name": "playwright-sqa-bootcamp",
+  "version": "1.0.0",
+  "description": "Simple Playwright automation project for teaching SQA students version control basics.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node tests/login-flow.js"
+  },
+  "keywords": [
+    "playwright",
+    "sqa",
+    "bootcamp",
+    "github",
+    "version-control"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "playwright": "^1.58.2"
+  }
+}
