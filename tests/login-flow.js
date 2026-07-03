@@ -12,6 +12,7 @@ async function run() {
     await page.fill('#username', 'student');
     await page.fill('#password', 'bootcamp123');
     await page.click('#login-button');
+    console.log('Test passed: Login Passed');
 
     await page.waitForSelector('#result:not(.hidden)');
 
@@ -21,7 +22,7 @@ async function run() {
       throw new Error(`Unexpected result message: ${message}`);
     }
 
-    console.log('Test passed: login flow works perfectly1 ........ .');
+    console.log('Test passed: login flow works perfectly2..................');
   } finally {
     await browser.close();
   }
