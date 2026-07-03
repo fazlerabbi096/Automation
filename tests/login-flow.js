@@ -21,7 +21,7 @@ async function run() {
       throw new Error(`Unexpected result message: ${message}`);
     }
 
-    console.log('Test passed: login flow works perfectly .');
+    console.log('Test passed: login flow works perfectly1 ........ .');
   } finally {
     await browser.close();
   }
